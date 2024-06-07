@@ -1,0 +1,28 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+body.dark-mode header {
+  background-color: #1e1e1e;
+}
+body.dark-mode button {
+  background-color: #333;
+  color: white;
+}
